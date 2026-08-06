@@ -19,7 +19,8 @@ The mechanical dimensions, sensor layout, and control architecture are tuned for
 |------|--------|
 | **MCU** | STM32F411CEU6 — Cortex-M4 @ 100 MHz, 512 KB Flash, 128 KB RAM |
 | **Motor driver** | DRV8833 — dual-channel H-bridge |
-| **Wall sensors** | 5× IR receivers + 8× IR LEDs (front left/right, left, right) |
+| **Wall sensors** | 4× IR receivers + 4× IR LEDs (front left/right, left, right) |
+| **Maze solver** | Flood fill (16×16 grid) |
 | **Position feedback** | Left/right quadrature encoders (L_ENC_A/B, R_ENC_A/B) |
 | **I/O expansion** | PCF8574AP — I2C GPIO expander |
 | **Power** | 2S LiPo → AP63203WU buck (3.3 V logic), separate motor rail |
@@ -111,7 +112,7 @@ Details: [`software/docs/architecture.md`](software/docs/architecture.md)
 | Firmware skeleton | Available |
 | Motor driver code | Planned |
 | Wall sensor code | Planned |
-| Maze solver | Planned |
+| Maze solver (flood fill) | Available (host-tested) |
 | Mechanical CAD | Planned |
 
 ## Contributing

@@ -45,6 +45,6 @@ STM32F411 has no separate EEPROM; persistent storage = **Flash**.
 |--------|----------|-------|
 | DRV8833 | `lib/motor/` | PWM / direction pins |
 | MPU6500 | `lib/imu/` | I2C, gyro + accel |
-| Maze solver | `lib/maze/` | Flood fill / wall follower |
+| Maze solver | `lib/maze/` | Flood fill on 16×16 grid; `FloodFillSolver` |
 
-These modules are **not yet present** in the current skeleton.
+The maze module is host-tested (`pio test -e native`). Motor and IMU modules are **not yet present**.

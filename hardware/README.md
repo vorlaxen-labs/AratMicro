@@ -61,7 +61,7 @@ Signal names are taken from schematic hierarchical labels. STM32 pin assignments
 | REC_L | Left wall receiver |
 | REC_R | Right wall receiver |
 
-The Sensor Unit has 8× IR LEDs + 5× receivers; LED drivers are controlled via BC817 NPN transistors.
+The Sensor Unit uses 4× IR receivers paired with 4× IR LEDs (one emitter per direction: front-left, front-right, left, right). LED drivers are controlled via BC817 NPN transistors.
 
 ### Other
 

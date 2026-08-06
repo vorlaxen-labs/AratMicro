@@ -23,7 +23,7 @@ Schematic hierarchical labels (`AratMicro.net`):
 |-------|---------|
 | Motor | MC_IN1, MC_IN2, MC_BIN1, MC_BIN2, MC_SLEEP, MC_FAULT |
 | Encoder | L_ENC_A, L_ENC_B, R_ENC_A, R_ENC_B |
-| Wall IR | IR_ON, REC_F_L, REC_F_R, REC_L, REC_R |
+| Wall IR (4× receiver + 4× LED) | IR_ON, REC_F_L, REC_F_R, REC_L, REC_R |
 | I2C | SNIFF_SDA, SNIFF_SCL |
 | UART | BT_TX, BT_RX |
 | Debug | PA13 (SWDIO), PA14 (SWCLK), NRST, BOOT0 |
