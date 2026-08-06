@@ -1,0 +1,22 @@
+---
+Checks: >
+  -*,
+  bugprone-*,
+  -bugprone-easily-swappable-parameters,
+  -bugprone-narrowing-conversions,
+  clang-analyzer-*,
+  cppcoreguidelines-init-variables,
+  cppcoreguidelines-pro-type-member-init,
+  modernize-use-nullptr,
+  performance-*,
+  readability-avoid-const-params-in-decls,
+  readability-braces-around-statements,
+  readability-const-return-type,
+  readability-implicit-bool-conversion,
+  readability-magic-numbers,
+  readability-named-parameter,
+  readability-redundant-member-init,
+  readability-simplify-boolean-expr
+WarningsAsErrors: ''
+HeaderFilterRegex: 'include/|src/|lib/|test/'
+FormatStyle: file

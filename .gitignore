@@ -1,0 +1,53 @@
+# --- KiCad ---
+fp-info-cache
+*-backups/
+.history/
+*.lck
+*.kicad_prl
+*-cache.lib
+*-rescue.lib
+*-rescue.kicad_sym
+*.bak
+*.bck
+*.tmp
+
+# Fabrication outputs (optional: keep in a release folder instead)
+*.gbr
+*.drl
+*.gbrjob
+*.pos
+*.csv
+*.xml
+*.ipc
+*.d356
+*.rpt
+
+# --- PlatformIO / embedded software ---
+.pio/
+.pioenvs/
+.piolibdeps/
+*.o
+*.a
+*.elf
+*.bin
+*.hex
+*.map
+
+# --- IDE / editor ---
+.vscode/.browse.c_cpp.db
+.vscode/ipch/
+.idea/
+*.swp
+*~
+.cache/
+compile_commands.json
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets / local config ---
+.env
+.env.*
+*.local

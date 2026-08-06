@@ -1,0 +1,687 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "84347b6a-3c52-499b-880c-9fa3c1707a82")
+	(paper "A4")
+	(lib_symbols)
+	(text "AratMicro - STM32MicroMause"
+		(exclude_from_sim no)
+		(at 202.946 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8d10dc1b-2980-4fc3-a3dc-9a8461040050")
+	)
+	(wire
+		(pts
+			(xy 34.29 120.65) (xy 40.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01d571b5-8528-4777-8b6f-bd90ceac3f4b")
+	)
+	(wire
+		(pts
+			(xy 34.29 72.39) (xy 40.64 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068c15c9-9068-432c-a62d-36ff4f683b61")
+	)
+	(wire
+		(pts
+			(xy 34.29 118.11) (xy 40.64 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a79cd28-6784-4f91-b637-09525a0cc5eb")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf2c66b-c0c5-47f3-a85e-bfc5cc9fb159")
+	)
+	(wire
+		(pts
+			(xy 34.29 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5763f841-3283-4540-b503-b24e6c84e979")
+	)
+	(wire
+		(pts
+			(xy 34.29 64.77) (xy 40.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a48a23-9f7d-435f-8f2e-2c073673bdb6")
+	)
+	(wire
+		(pts
+			(xy 34.29 59.69) (xy 40.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4a63f1-17fd-44b0-a613-4d880798c089")
+	)
+	(wire
+		(pts
+			(xy 34.29 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63cacc4d-4dd4-4a08-90bb-e76cdc8fcd93")
+	)
+	(wire
+		(pts
+			(xy 34.29 57.15) (xy 40.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6be0b646-2ca4-46c7-9618-8eae1e9db662")
+	)
+	(wire
+		(pts
+			(xy 34.29 53.34) (xy 40.64 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dcc415-64f4-4cf0-9e35-e635ac6b2511")
+	)
+	(wire
+		(pts
+			(xy 34.29 111.76) (xy 40.64 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4a17b2-fbe4-41f6-9fe0-99132edd1005")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 40.64 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a653ff57-939a-4e4e-a640-b94445da60b0")
+	)
+	(wire
+		(pts
+			(xy 34.29 45.72) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92916ac-680b-4557-9807-15e3a2cfca26")
+	)
+	(wire
+		(pts
+			(xy 34.29 69.85) (xy 40.64 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf78cae7-5015-4985-8d01-12143a5362fc")
+	)
+	(wire
+		(pts
+			(xy 34.29 21.59) (xy 40.64 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb20f52f-0f90-4eea-b279-4b5e2f786fb9")
+	)
+	(wire
+		(pts
+			(xy 34.29 50.8) (xy 40.64 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda76c65-3629-4baf-bb48-394742a7c794")
+	)
+	(sheet
+		(at 40.64 43.18)
+		(size 22.86 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0df2eac9-b7ec-401c-a186-849b12550425")
+		(property "Sheetname" "Motor Controller Unit"
+			(at 40.64 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mc.kicad_sch"
+			(at 40.64 41.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MC_IN1" input
+			(at 40.64 45.72 180)
+			(uuid "a682f65c-d874-4c88-a4fd-de0b8bfcc6b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC_BIN1" input
+			(at 40.64 50.8 180)
+			(uuid "b5562902-0095-4637-ad84-04239dafb740")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC_BIN2" input
+			(at 40.64 53.34 180)
+			(uuid "f9cf0a26-ae43-43e9-9f18-d5b5f9929c92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC_IN2" input
+			(at 40.64 48.26 180)
+			(uuid "d0dfaf84-872a-4744-b611-4ef46f968a8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L_ENC_A" input
+			(at 40.64 69.85 180)
+			(uuid "dd8f634c-2eb0-4e59-a129-ad16b7cea2a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "L_ENC_B" input
+			(at 40.64 72.39 180)
+			(uuid "75b035cf-7e29-475c-b2c5-51626eb694a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_ENC_A" input
+			(at 40.64 64.77 180)
+			(uuid "39b6fb64-9925-4a6d-8fc8-69e96213c126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R_ENC_B" input
+			(at 40.64 67.31 180)
+			(uuid "329363df-ad53-46bc-9dec-660989bf928d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC_SLEEP" input
+			(at 40.64 57.15 180)
+			(uuid "825a1751-17ee-4a5f-a65d-1c6a44b1c0f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MC_FAULT" input
+			(at 40.64 59.69 180)
+			(uuid "8a8b52da-a437-4d3e-b9e6-49ff4e6e42d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AratMicro"
+				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 19.05 134.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b6d3b1d4-0044-4393-a354-db00afbe12d0")
+		(property "Sheetname" "MCU"
+			(at 15.24 15.7984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 15.24 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MC_BIN1" input
+			(at 34.29 50.8 0)
+			(uuid "981f33a5-17d8-4d9c-9d24-d590a4e73cb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MC_BIN2" input
+			(at 34.29 53.34 0)
+			(uuid "5c0f6f85-fff7-44b8-9b3f-98bf3576ef05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MC_FAULT" input
+			(at 34.29 59.69 0)
+			(uuid "51103626-e4f2-448e-9b6a-566647de689c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MC_IN1" input
+			(at 34.29 45.72 0)
+			(uuid "675b428c-5e98-4599-91b9-8f857754953e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MC_IN2" input
+			(at 34.29 48.26 0)
+			(uuid "600c20d9-8e1e-413f-981e-b9494198475d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MC_SLEEP" input
+			(at 34.29 57.15 0)
+			(uuid "bbd426fc-d1eb-46ad-86e7-2dde220b176e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATTS" input
+			(at 34.29 21.59 0)
+			(uuid "d22ea015-8623-40c3-8abd-cb323f369f11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L_ENC_A" input
+			(at 34.29 69.85 0)
+			(uuid "cb9ce9e8-449e-4e6b-8668-a6cb1653b6c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "L_ENC_B" input
+			(at 34.29 72.39 0)
+			(uuid "34b6e373-73f7-4ac9-956a-c3cb250d09e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R_ENC_A" input
+			(at 34.29 64.77 0)
+			(uuid "702bec76-0070-4d33-b7a9-b9bd0bef68ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R_ENC_B" input
+			(at 34.29 67.31 0)
+			(uuid "7e09c473-5a5e-4b48-b523-e971c7e8846b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REC_F_L" input
+			(at 34.29 111.76 0)
+			(uuid "d8420bd4-3bbd-4775-8144-60e31d952d3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REC_F_R" input
+			(at 34.29 114.3 0)
+			(uuid "bdaa59ef-b004-4f09-a404-115183d6bd4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REC_L" input
+			(at 34.29 118.11 0)
+			(uuid "a9baff8c-1340-4356-8164-5dc6193e7324")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "REC_R" input
+			(at 34.29 120.65 0)
+			(uuid "47660c3a-f761-4b8e-b96f-b03e824f421a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IR_ON" input
+			(at 34.29 107.95 0)
+			(uuid "419fdec1-5acc-4fa4-bcf3-7cf1a3341076")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "AratMicro"
+				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 104.14)
+		(size 12.7 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ede81a8d-117e-4090-bd2b-c13c3bf53792")
+		(property "Sheetname" "Sensor Unit"
+			(at 40.64 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "su.kicad_sch"
+			(at 40.64 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "REC_F_L" input
+			(at 40.64 111.76 180)
+			(uuid "127ab054-d0c8-487a-a2b5-7aef4684889c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REC_F_R" input
+			(at 40.64 114.3 180)
+			(uuid "89e0f228-acc8-48a1-9254-3ee8345b7ea4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REC_L" input
+			(at 40.64 118.11 180)
+			(uuid "a35d89e4-3f5b-42ef-bf83-e4180f8301a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "REC_R" input
+			(at 40.64 120.65 180)
+			(uuid "ae7a1b68-d42e-4e00-8428-e759937b0cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IR_ON" input
+			(at 40.64 107.95 180)
+			(uuid "393a41b0-030e-4d25-b74a-f47c76e67786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AratMicro"
+				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 15.24)
+		(size 22.86 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ef221098-9731-443b-b8f9-1983d669fab7")
+		(property "Sheetname" "Power Supply"
+			(at 40.64 14.5284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 40.64 29.7946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BATT_SENSE" input
+			(at 40.64 21.59 180)
+			(uuid "8f26d8c2-7596-45b7-be60-2fa963f8d469")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "AratMicro"
+				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
