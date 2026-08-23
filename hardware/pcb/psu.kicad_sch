@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "1ef2b860-047c-4ad9-b15c-86c65aec4379")
+	(uuid "2e253c65-b13e-453f-a1bf-5bd8419d304f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -2450,6 +2450,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GNDPWR"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GNDPWR"
+				(at 0 -3.302 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GNDPWR_0_1"
+				(polyline
+					(pts
+						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDPWR_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:PWR_FLAG"
 			(power global)
 			(pin_numbers
@@ -2568,7 +2755,7 @@
 	)
 	(rectangle
 		(start 12.065 78.105)
-		(end 71.12 116.84)
+		(end 207.645 144.145)
 		(stroke
 			(width 0)
 			(type default)
@@ -2576,22 +2763,10 @@
 		(fill
 			(type none)
 		)
-		(uuid "294479fd-381c-4e0b-a324-5686522eccbd")
+		(uuid "24e51bbb-3b1d-4c04-812d-ad3035b26211")
 	)
 	(rectangle
 		(start 12.065 12.065)
-		(end 132.715 78.105)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4b97fcb4-8b01-479e-ab9f-d4e811636705")
-	)
-	(rectangle
-		(start 132.715 12.065)
 		(end 285.115 78.105)
 		(stroke
 			(width 0)
@@ -2600,7 +2775,53 @@
 		(fill
 			(type none)
 		)
-		(uuid "f190b97c-f6d5-49db-9db1-e38bcfe1a2ce")
+		(uuid "49a23054-5b7c-45b4-b129-4f494eb206e9")
+	)
+	(rectangle
+		(start 207.645 12.065)
+		(end 285.115 78.105)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "603c4e1f-f34a-49ac-b41c-441da5835923")
+	)
+	(text "3.3V Buck Regulator"
+		(exclude_from_sim no)
+		(at 40.386 84.328 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "2fa2f6ca-28ea-4bf2-81f1-3023d9503cdd")
+	)
+	(text "Battery Sense"
+		(exclude_from_sim no)
+		(at 231.14 18.034 0)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.6096)
+				(bold yes)
+			)
+		)
+		(uuid "4741278b-3fc5-43af-afda-1d37eaba0b36")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 21.844 84.074 0)
+		(effects
+			(font
+				(size 2.0828 2.0828)
+			)
+		)
+		(uuid "5368f308-bef8-4e55-8594-1331c10aaa66")
 	)
 	(text "Power Input & Protection"
 		(exclude_from_sim no)
@@ -2612,1096 +2833,956 @@
 				(bold yes)
 			)
 		)
-		(uuid "16e32397-c473-49cf-8bf9-e452bcd3b9e1")
-	)
-	(text "Power Supply"
-		(exclude_from_sim no)
-		(at 196.85 189.738 0)
-		(effects
-			(font
-				(size 1.9304 1.9304)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "5f246896-ee62-4cc5-8e33-b319135f9618")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 142.494 18.034 0)
-		(effects
-			(font
-				(size 2.0828 2.0828)
-			)
-		)
-		(uuid "aaad3c7f-a92e-4473-a900-6b3597cd8516")
-	)
-	(text "Battery Sense"
-		(exclude_from_sim no)
-		(at 32.258 83.82 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.6096)
-				(bold yes)
-			)
-		)
-		(uuid "aba86010-fe0e-4ba4-bdcc-0f6763ed3b98")
-	)
-	(text "3.3V Buck Regulator"
-		(exclude_from_sim no)
-		(at 161.036 18.288 0)
-		(effects
-			(font
-				(size 3.048 3.048)
-				(thickness 0.6096)
-				(bold yes)
-			)
-		)
-		(uuid "eabadd7f-8d15-40de-a432-64ac1729f7d6")
+		(uuid "9e252883-2e63-46c7-905f-7d3fa507abfc")
 	)
 	(junction
-		(at 39.37 96.52)
+		(at 38.1 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0322d24c-736d-4e3e-8178-b1670caa2f73")
+		(uuid "0a3806ad-d539-4e8d-bc9a-5a8a6fa9d592")
 	)
 	(junction
-		(at 35.56 41.91)
+		(at 146.05 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "234481d2-d3b9-4e5a-94b6-a3c2ccdf3c78")
+		(uuid "18e0acef-dec3-402d-8985-3d4153b2ba6f")
 	)
 	(junction
-		(at 252.73 27.94)
+		(at 146.05 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "370348d0-b491-4ec6-be02-7e80b431b5ac")
+		(uuid "2bc9adf7-782f-4f19-aec2-61dccedc2173")
 	)
 	(junction
-		(at 152.4 33.02)
+		(at 107.95 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "387cdcdf-857a-4ce8-8ea7-98756ec36caf")
+		(uuid "2fd71d93-6fa7-464a-83bc-d87089948827")
 	)
 	(junction
-		(at 86.36 39.37)
+		(at 184.15 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b886c0e-4745-45ba-92b9-a4efe7a90c71")
+		(uuid "32fdf9dd-f06e-432a-9380-ecc0f540aec1")
 	)
 	(junction
-		(at 191.77 27.94)
+		(at 87.63 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3cde676d-9c8b-43c6-aaa8-408a434a3094")
+		(uuid "3a1454ba-85c7-438a-ab5b-c534b365ccf6")
 	)
 	(junction
-		(at 102.87 52.07)
+		(at 49.53 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a4dd3e6-c0c7-4fb9-8ee3-1784c820ca93")
+		(uuid "440ea8e2-a36e-431b-896d-9cd7dd887199")
 	)
 	(junction
-		(at 58.42 39.37)
+		(at 162.56 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63c3804e-64ed-4147-8a6f-6782d15737f8")
+		(uuid "6d533670-e161-4b2a-a79e-9c4630999cee")
 	)
 	(junction
-		(at 264.16 27.94)
+		(at 40.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f7e4fa6-04a9-489b-b9e8-8ca7d3545f36")
+		(uuid "74dd1a75-aae7-4a79-97dd-38f90afbc489")
 	)
 	(junction
-		(at 22.86 44.45)
+		(at 99.06 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "909918a3-33f2-4744-ae62-455952debca6")
+		(uuid "76fb6109-275c-4fac-a550-0ba3b1c45905")
 	)
 	(junction
-		(at 207.01 27.94)
+		(at 124.46 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "95ed0a3b-0430-4e86-8714-efb3cc4b9471")
+		(uuid "82daa957-0c49-46d7-983c-e61fc39bd976")
 	)
 	(junction
-		(at 118.11 39.37)
+		(at 162.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a915bf3f-407b-4b4c-92ae-844d21dcf845")
+		(uuid "938fb8d8-7e87-4436-b194-cbc779dde3da")
 	)
 	(junction
-		(at 86.36 52.07)
+		(at 246.38 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4a93f85-de59-4cf4-b86f-06df55298e6a")
+		(uuid "99765f5f-1613-457d-ac65-3564ec9b22f1")
 	)
 	(junction
-		(at 240.03 27.94)
+		(at 177.8 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b770d80a-5362-4b3c-b1fc-a7f39a9109b7")
+		(uuid "adc585fc-98d1-4d61-b2f2-9769a9193360")
 	)
 	(junction
-		(at 152.4 41.91)
+		(at 146.05 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c40f8ad5-78a3-4dd4-a1b4-1511f4200dc8")
+		(uuid "ae916b7c-b903-4516-a6ce-92e4fd6c7955")
 	)
 	(junction
-		(at 224.79 27.94)
+		(at 246.38 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e2579790-7f6d-4f21-902b-b8cbf262f5c3")
+		(uuid "b29736f4-7f7f-489e-8d31-d6238b70f776")
 	)
 	(junction
-		(at 39.37 100.33)
+		(at 40.64 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eed1afaf-44b9-42a0-8601-0d7b0976ea3d")
+		(uuid "d1d5fa2a-5197-495a-9eea-4066cfd4fabb")
 	)
 	(junction
-		(at 102.87 39.37)
+		(at 162.56 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ffa7bf81-75e4-482e-82a3-7b3d95dadbf2")
+		(uuid "e1ffa370-0da7-4449-ac89-25c9b3fe01b5")
+	)
+	(junction
+		(at 180.34 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e473615f-94d5-4621-bd63-9438507686e4")
+	)
+	(junction
+		(at 38.1 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c0f84e-9bfe-42e1-b3ae-e033c360bd75")
 	)
 	(no_connect
-		(at 48.26 44.45)
-		(uuid "17954cab-ea47-422f-a580-6a9c653edad5")
+		(at 76.2 44.45)
+		(uuid "26a0efa9-8acb-45de-b15f-d7d262566695")
 	)
 	(wire
 		(pts
-			(xy 152.4 43.18) (xy 152.4 41.91)
+			(xy 99.06 39.37) (xy 99.06 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05040963-d6a2-4632-8d60-d3047f3d4a39")
+		(uuid "05b32da2-da62-49fc-9278-5b003050f97e")
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 39.37 100.33)
+			(xy 243.84 39.37) (xy 246.38 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09f6de54-d4e1-4848-96f8-2f5ca13ded80")
+		(uuid "062d578d-a1b0-4f72-bf6a-85e17f4bd393")
 	)
 	(wire
 		(pts
-			(xy 35.56 34.29) (xy 35.56 41.91)
+			(xy 119.38 96.52) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b4719b5-9675-4d8c-8c80-61867294567f")
+		(uuid "0a98aff0-2518-4940-8966-077ad535659a")
 	)
 	(wire
 		(pts
-			(xy 252.73 30.48) (xy 252.73 27.94)
+			(xy 99.06 53.34) (xy 99.06 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b63e3d8-5b1d-4ad7-b2dc-5a8ab0550f57")
+		(uuid "0fb6e3b5-5236-4ca5-88b6-c1f601a50e99")
 	)
 	(wire
 		(pts
-			(xy 86.36 52.07) (xy 86.36 55.88)
+			(xy 184.15 115.57) (xy 184.15 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0cb73cd7-cdc3-4b09-bfab-97d72951deb2")
+		(uuid "0fbd208b-a0e3-4c80-bfa8-308b5eadef4d")
 	)
 	(wire
 		(pts
-			(xy 224.79 29.21) (xy 224.79 27.94)
+			(xy 38.1 36.83) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12e5ff84-1054-4fd8-89ab-2f332f8cd224")
+		(uuid "11376b67-3509-47d1-bc59-5c77c9ddfab7")
 	)
 	(wire
 		(pts
-			(xy 49.53 96.52) (xy 53.34 96.52)
+			(xy 55.88 106.68) (xy 55.88 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "152e038b-7bb9-4468-b140-98fd5e87179f")
+		(uuid "1523094a-b94b-4d08-b44a-34a5f914952c")
 	)
 	(wire
 		(pts
-			(xy 176.53 43.18) (xy 176.53 45.72)
+			(xy 252.73 50.8) (xy 252.73 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a48c3e2-5a39-4437-805b-77c50ca4a728")
+		(uuid "1587813b-c8dc-40dc-aec4-c2a76bc47b03")
 	)
 	(wire
 		(pts
-			(xy 86.36 41.91) (xy 86.36 39.37)
+			(xy 78.74 110.49) (xy 81.28 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e4cddfe-a479-4aaa-ac75-9cb7e24ea960")
+		(uuid "187709ed-22ab-47c2-8d15-41f93a2df038")
 	)
 	(wire
 		(pts
-			(xy 224.79 36.83) (xy 224.79 39.37)
+			(xy 36.83 40.64) (xy 36.83 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "221b030f-fcc3-492f-a385-e183f898b1bd")
+		(uuid "19ac45d0-02d3-4849-a001-da90147b1542")
 	)
 	(wire
 		(pts
-			(xy 187.96 38.1) (xy 186.69 38.1)
+			(xy 36.83 40.64) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2547bf45-e4f2-44ab-8c00-210bc2a381c0")
+		(uuid "263f8668-b3ef-4701-8ff7-462eb8bfd9d1")
 	)
 	(wire
 		(pts
-			(xy 207.01 27.94) (xy 207.01 31.75)
+			(xy 124.46 118.11) (xy 124.46 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25540c47-789e-4527-b220-ed4e19fbc21a")
+		(uuid "272cbc79-74b8-4c68-83b7-37b2c9078e6e")
 	)
 	(wire
 		(pts
-			(xy 224.79 39.37) (xy 228.6 39.37)
+			(xy 87.63 96.52) (xy 107.95 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2850ad0d-7e73-450d-b5e9-d77eefb9e376")
+		(uuid "293e59ad-41f9-497e-9679-0720118f356a")
 	)
 	(wire
 		(pts
-			(xy 154.94 53.34) (xy 152.4 53.34)
+			(xy 78.74 104.14) (xy 87.63 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28ed566e-4e37-4d0c-8037-1c3c7a5400de")
+		(uuid "2e707756-aae1-4958-8a6d-27b1e371c2f0")
 	)
 	(wire
 		(pts
-			(xy 53.34 45.72) (xy 58.42 45.72)
+			(xy 146.05 110.49) (xy 146.05 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "311ef268-5654-42e4-abca-cdfa00e1c4a6")
+		(uuid "33a39452-94ae-4bf2-8914-316643d63236")
 	)
 	(wire
 		(pts
-			(xy 186.69 27.94) (xy 186.69 33.02)
+			(xy 177.8 41.91) (xy 177.8 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33de9dcf-c15c-4134-ad9a-ce160b466468")
+		(uuid "37d4feae-e3e8-4acc-899a-fe6e76002027")
 	)
 	(wire
 		(pts
-			(xy 102.87 39.37) (xy 118.11 39.37)
+			(xy 40.64 111.76) (xy 40.64 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "362bb890-7c50-42ab-bb50-69ac5355b7c0")
+		(uuid "37e5f212-f426-40be-b30e-cb3a5e58283d")
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 187.96 38.1)
+			(xy 162.56 49.53) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4475b17c-5138-4777-a251-f490a6a28763")
+		(uuid "3829332a-9306-4f00-917c-70c3b207d004")
 	)
 	(wire
 		(pts
-			(xy 222.25 27.94) (xy 224.79 27.94)
+			(xy 68.58 111.76) (xy 68.58 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b12ecbb-05e6-4b14-9063-6c98ae63946b")
+		(uuid "3cb487ac-544c-4688-a7b2-bc5ab5fcdf0b")
 	)
 	(wire
 		(pts
-			(xy 45.72 55.88) (xy 53.34 55.88)
+			(xy 184.15 106.68) (xy 184.15 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ced3b1a-519b-4ae1-9ccf-78e0f90c0762")
+		(uuid "3f9c371d-52fc-4a46-845b-6435bfb3f8ba")
 	)
 	(wire
 		(pts
-			(xy 48.26 39.37) (xy 49.53 39.37)
+			(xy 38.1 40.64) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f4d48f1-216c-4ecb-af83-0b8026b97b16")
+		(uuid "48f4926b-0d57-4792-90ee-7414ec07c47d")
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 152.4 41.91)
+			(xy 246.38 39.37) (xy 248.92 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "501bc1b7-1e6d-4928-8caf-d6f67f5a564c")
+		(uuid "4bf65ddf-63f5-4904-bad8-298376932955")
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 118.11 39.37)
+			(xy 128.27 118.11) (xy 124.46 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50c9356a-f788-4890-9c30-b82e81a1dc7d")
+		(uuid "4c7f931d-1d47-4c3b-8f48-4f0acd5a6ce8")
 	)
 	(wire
 		(pts
-			(xy 25.4 96.52) (xy 29.21 96.52)
+			(xy 252.73 43.18) (xy 246.38 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5106f0c3-5bda-45d5-ba04-36250289023b")
+		(uuid "4df74318-3ca3-4a2e-8303-e356dc9d1c84")
 	)
 	(wire
 		(pts
-			(xy 36.83 96.52) (xy 39.37 96.52)
+			(xy 180.34 39.37) (xy 181.61 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "51b8ef9f-b6c9-4fcf-99f2-ec1bab9eb571")
+		(uuid "4e9ebb74-763e-4551-9f66-36f1abf52dc9")
 	)
 	(wire
 		(pts
-			(xy 35.56 41.91) (xy 38.1 41.91)
+			(xy 124.46 54.61) (xy 124.46 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52983bf7-4d28-4c1b-845d-d4cbd69c71c4")
+		(uuid "51f4f548-dad1-47aa-b5ef-5c3ea7e739d5")
 	)
 	(wire
 		(pts
-			(xy 264.16 38.1) (xy 264.16 39.37)
+			(xy 177.8 39.37) (xy 180.34 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59ea308a-58b8-4f51-9b1d-33b9c3e86705")
+		(uuid "5234f377-1b59-43e0-871f-794ace764fbf")
 	)
 	(wire
 		(pts
-			(xy 22.86 44.45) (xy 26.67 44.45)
+			(xy 40.64 116.84) (xy 40.64 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5eb5fd2f-192d-4c21-b47f-3267d2745a01")
+		(uuid "55e14a79-fb13-47c0-aa0a-e9446be6de6c")
 	)
 	(wire
 		(pts
-			(xy 264.16 46.99) (xy 264.16 48.26)
+			(xy 146.05 52.07) (xy 162.56 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5f1ed71c-ac6a-4f7d-82fb-0e68154799cb")
+		(uuid "56cf6eb5-70db-47a5-af2c-330e01807efe")
 	)
 	(wire
 		(pts
-			(xy 58.42 39.37) (xy 63.5 39.37)
+			(xy 146.05 96.52) (xy 162.56 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65486eef-f4ad-4940-9872-03ab5d2dbaf6")
+		(uuid "58959e79-ff73-43e1-bda1-1d700a240bfc")
 	)
 	(wire
 		(pts
-			(xy 240.03 38.1) (xy 240.03 41.91)
+			(xy 162.56 96.52) (xy 184.15 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b52cac5-24d7-45e4-a526-c5d3764ff0e0")
+		(uuid "6318d844-3b1b-4939-a37a-bfcfe8541408")
 	)
 	(wire
 		(pts
-			(xy 68.58 54.61) (xy 68.58 57.15)
+			(xy 162.56 39.37) (xy 177.8 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6cc046fc-3552-4d58-a6df-ba1d2fe539db")
+		(uuid "66198bb3-e47b-433f-8790-a55549171b8a")
 	)
 	(wire
 		(pts
-			(xy 102.87 52.07) (xy 118.11 52.07)
+			(xy 99.06 39.37) (xy 119.38 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6fc983ca-7e65-4fdc-ba0c-4a8a0d2f5cf8")
+		(uuid "6637d2c6-e7f0-4479-b09a-c8bda509912b")
 	)
 	(wire
 		(pts
-			(xy 22.86 41.91) (xy 35.56 41.91)
+			(xy 91.44 39.37) (xy 99.06 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72544ae5-b3a4-4ada-a724-907e6fbb60c3")
+		(uuid "69224243-c277-4f97-bd17-87112e876b15")
 	)
 	(wire
 		(pts
-			(xy 53.34 45.72) (xy 53.34 46.99)
+			(xy 36.83 101.6) (xy 40.64 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7843aa61-3bec-48ec-9ac5-6c350aa66341")
+		(uuid "6d328c79-1c76-41cb-a5c3-e1a61dacd0ba")
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 41.91 96.52)
+			(xy 107.95 123.19) (xy 107.95 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a53f9c1-fdde-4ce9-a183-77d0150a357b")
+		(uuid "6d617434-d8fd-4992-a996-2ecc68ace1b9")
 	)
 	(wire
 		(pts
-			(xy 86.36 39.37) (xy 102.87 39.37)
+			(xy 129.54 39.37) (xy 146.05 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ae794b8-8912-4470-a417-dd100233f98e")
+		(uuid "71ab96a4-8d8e-479b-8983-58c0c7162af8")
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 166.37 38.1)
+			(xy 87.63 104.14) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85f3d630-c998-4626-8f3d-d764a7656f7d")
+		(uuid "71ef6f1c-0bf6-4399-9dab-33132ddb30a0")
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 119.38 39.37)
+			(xy 146.05 41.91) (xy 146.05 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "896f51b3-6854-4349-8966-d493818d28a7")
+		(uuid "75c0e00a-b82b-4e4e-ad29-fb0d019b5daa")
 	)
 	(wire
 		(pts
-			(xy 207.01 27.94) (xy 214.63 27.94)
+			(xy 146.05 52.07) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e29cb17-f35e-40eb-bbfe-7487175a7955")
+		(uuid "772a3fa3-2afc-4e7c-b137-81591a2b7eda")
 	)
 	(wire
 		(pts
-			(xy 118.11 49.53) (xy 118.11 52.07)
+			(xy 162.56 52.07) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94348d53-9892-4f13-9a38-80714c4e87e7")
+		(uuid "7c92ee48-c00b-4db8-ad9f-9722ff6cb712")
 	)
 	(wire
 		(pts
-			(xy 53.34 55.88) (xy 53.34 54.61)
+			(xy 256.54 39.37) (xy 260.35 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94cea5f1-ab88-4612-889c-a29ca699d714")
+		(uuid "807f89ed-5a08-482b-a496-8760cfa3ac84")
 	)
 	(wire
 		(pts
-			(xy 191.77 27.94) (xy 207.01 27.94)
+			(xy 107.95 96.52) (xy 107.95 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "95b27d99-4fed-44ca-8497-1d3304a00fdd")
+		(uuid "879fb922-0499-4787-a48f-9172e20e524e")
 	)
 	(wire
 		(pts
-			(xy 152.4 41.91) (xy 162.56 41.91)
+			(xy 184.15 99.06) (xy 184.15 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97e5c5f4-a5c8-49e2-bdcd-5115305b9ea3")
+		(uuid "87ba5c63-17c9-4d2a-b4e9-ab5c4ac5b51d")
 	)
 	(wire
 		(pts
-			(xy 264.16 27.94) (xy 269.24 27.94)
+			(xy 40.64 101.6) (xy 58.42 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98bfdafc-80cd-48e5-8c1b-956d1a908865")
+		(uuid "8b763ea3-2452-4baa-a97e-6b245a084e7a")
 	)
 	(wire
 		(pts
-			(xy 22.86 44.45) (xy 22.86 45.72)
+			(xy 78.74 96.52) (xy 87.63 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "999f5253-556f-43fa-a31d-de1720b0bb2f")
+		(uuid "8d9db765-3e23-45f0-99cd-2220c89d947e")
 	)
 	(wire
 		(pts
-			(xy 86.36 52.07) (xy 102.87 52.07)
+			(xy 40.64 127) (xy 40.64 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a057d04-7fa5-4d20-9b86-2bfba3226722")
+		(uuid "91f24c64-9867-4dd8-9f2c-5994305fe5e6")
 	)
 	(wire
 		(pts
-			(xy 86.36 49.53) (xy 86.36 52.07)
+			(xy 252.73 43.18) (xy 252.73 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aeba7a3-2a78-4aea-816d-cb78ba38dcf6")
+		(uuid "974af0c1-cb29-406c-907d-087410dd4329")
 	)
 	(wire
 		(pts
-			(xy 240.03 27.94) (xy 252.73 27.94)
+			(xy 184.15 96.52) (xy 189.23 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c0bf125-3555-4815-a894-7760ecc2e3eb")
+		(uuid "a292436d-710c-4fd1-8b24-f83bdff47413")
 	)
 	(wire
 		(pts
-			(xy 152.4 33.02) (xy 166.37 33.02)
+			(xy 64.77 40.64) (xy 64.77 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a12ce865-6989-45c9-98bc-ddfbd342d383")
+		(uuid "a41682ea-f164-42bb-aefb-83854e09cf74")
 	)
 	(wire
 		(pts
-			(xy 191.77 27.94) (xy 191.77 30.48)
+			(xy 246.38 43.18) (xy 246.38 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a49340e8-dc10-442a-9c51-20731afe6ac9")
+		(uuid "a806c517-7e3c-4cb4-b2fe-eb8f8e1519c7")
 	)
 	(wire
 		(pts
-			(xy 147.32 33.02) (xy 152.4 33.02)
+			(xy 76.2 39.37) (xy 83.82 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a692026d-3a0a-4a1d-aff8-f03726d99e33")
+		(uuid "ad005a4c-2548-4e03-9ded-296e955aed4f")
 	)
 	(wire
 		(pts
-			(xy 102.87 49.53) (xy 102.87 52.07)
+			(xy 246.38 39.37) (xy 246.38 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b8332955-1451-467c-9b80-80c9e5ab8de4")
+		(uuid "b1214c94-53d0-475a-86c0-ee656b61e456")
 	)
 	(wire
 		(pts
-			(xy 39.37 96.52) (xy 39.37 100.33)
+			(xy 162.56 102.87) (xy 162.56 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c042e410-66a6-4e8c-af83-adf9b01227a3")
+		(uuid "b2bb7015-d7ae-4dca-a8f9-724e360a87f8")
 	)
 	(wire
 		(pts
-			(xy 39.37 107.95) (xy 36.83 107.95)
+			(xy 146.05 39.37) (xy 162.56 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c224f199-796a-4c57-b16f-ad95b41884bf")
+		(uuid "b45e31c9-3377-4c79-95e9-8faa4a4ebf50")
 	)
 	(wire
 		(pts
-			(xy 187.96 39.37) (xy 189.23 39.37)
+			(xy 38.1 44.45) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5242442-0dbc-425e-9199-c9ca2c317abc")
+		(uuid "b50c5b6d-914b-4660-ac21-f99ac3746e55")
 	)
 	(wire
 		(pts
-			(xy 73.66 39.37) (xy 86.36 39.37)
+			(xy 78.74 96.52) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5477f9c-20f6-4a38-88e6-662bb9f11448")
+		(uuid "b5b09b19-609e-40cd-b476-41c8b8d19200")
 	)
 	(wire
 		(pts
-			(xy 57.15 39.37) (xy 58.42 39.37)
+			(xy 49.53 36.83) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6ce678d-1225-4ca7-a99f-dfab4c851403")
+		(uuid "b67bc0ba-a4a4-4bef-88e8-33f448da1b7d")
 	)
 	(wire
 		(pts
-			(xy 252.73 27.94) (xy 264.16 27.94)
+			(xy 124.46 96.52) (xy 146.05 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6e75f4e-5791-4b27-97ef-7f1bb75a3812")
+		(uuid "b7907342-585f-4ec8-a91f-b3a16a43bcda")
 	)
 	(wire
 		(pts
-			(xy 58.42 45.72) (xy 58.42 39.37)
+			(xy 55.88 106.68) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6f92355-cfb9-45a8-9244-0497c1b5bc9d")
+		(uuid "c51c8078-b15b-47d6-900f-23811feb5c44")
 	)
 	(wire
 		(pts
-			(xy 240.03 30.48) (xy 240.03 27.94)
+			(xy 49.53 40.64) (xy 64.77 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8449e09-a172-48a0-a180-86b42601b475")
+		(uuid "c96f266d-02f7-4c99-ba6a-1652ec255e09")
 	)
 	(wire
 		(pts
-			(xy 39.37 100.33) (xy 39.37 107.95)
+			(xy 246.38 50.8) (xy 243.84 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9a97b94-bc33-4ecb-b657-b08a32cc8530")
+		(uuid "ca832f6e-a052-488c-a738-0632832aa78d")
 	)
 	(wire
 		(pts
-			(xy 186.69 35.56) (xy 191.77 35.56)
+			(xy 38.1 44.45) (xy 48.26 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9bf7796-fbbc-40d3-bac8-6e6bab54bba1")
+		(uuid "cab09eff-d81b-4b51-b151-3b080c67853f")
 	)
 	(wire
 		(pts
-			(xy 252.73 38.1) (xy 252.73 40.64)
+			(xy 48.26 44.45) (xy 48.26 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d91e072e-950c-4ad9-b750-e6f48d342130")
+		(uuid "cfb75286-e9de-4d11-a141-4b3bae22d458")
 	)
 	(wire
 		(pts
-			(xy 186.69 27.94) (xy 191.77 27.94)
+			(xy 162.56 110.49) (xy 162.56 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db7aea03-5ed3-4465-adbd-23fea632c616")
+		(uuid "d67e9f5e-1a6a-4c45-b6c6-0ee9f01a4fcc")
 	)
 	(wire
 		(pts
-			(xy 45.72 107.95) (xy 45.72 109.22)
+			(xy 107.95 96.52) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ddd9e987-b212-49b3-830a-d56404fbd389")
+		(uuid "dd267a10-8f65-42ac-9107-68c85771c891")
 	)
 	(wire
 		(pts
-			(xy 102.87 39.37) (xy 102.87 41.91)
+			(xy 232.41 39.37) (xy 236.22 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e15d8275-92ef-45c4-859f-ef71803de8c7")
+		(uuid "e24f40ff-1e10-403f-ba5c-cf7fee6a3cdc")
 	)
 	(wire
 		(pts
-			(xy 264.16 30.48) (xy 264.16 27.94)
+			(xy 124.46 102.87) (xy 124.46 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e336b69e-32a4-43ff-bd08-a987e48ec3f3")
+		(uuid "e3c29667-7b15-431a-86de-b5d1907a84aa")
 	)
 	(wire
 		(pts
-			(xy 224.79 27.94) (xy 240.03 27.94)
+			(xy 78.74 110.49) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4231f12-4e92-44fa-a8d9-4ded7f0c7364")
+		(uuid "ec2bb0f9-dd4b-46ec-b264-d771c92f0309")
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 162.56 41.91)
+			(xy 107.95 113.03) (xy 107.95 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8e1a753-2b80-42bf-b593-175b230583a9")
+		(uuid "ee658b67-0431-473b-8f6d-5db824962e3c")
 	)
 	(wire
 		(pts
-			(xy 45.72 100.33) (xy 45.72 102.87)
+			(xy 177.8 49.53) (xy 177.8 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed254ae7-2d63-4894-bd6f-ec15bc68475d")
+		(uuid "ef669c36-22ef-49d1-a226-0587c3e494cf")
 	)
 	(wire
 		(pts
-			(xy 152.4 53.34) (xy 152.4 50.8)
+			(xy 162.56 39.37) (xy 162.56 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5544bee-cc30-427a-b3a2-e42447f6a35b")
+		(uuid "f1c165b0-20d1-4494-8198-5820aa14b139")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 66.04 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4401ecf-45ac-4e72-89d0-c3a4fb37fd9d")
+	)
+	(wire
+		(pts
+			(xy 40.64 104.14) (xy 40.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a2e22a-1be2-41dc-a1e9-5a12c4b3d0b1")
+	)
+	(wire
+		(pts
+			(xy 40.64 114.3) (xy 55.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f802716d-89a7-426f-9bd6-2b6640ce3ffb")
+	)
+	(wire
+		(pts
+			(xy 146.05 102.87) (xy 146.05 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f5f7cc-ed3a-49da-b153-c9184d2d0953")
+	)
+	(wire
+		(pts
+			(xy 146.05 49.53) (xy 146.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa871c09-43df-4487-a470-4e113430bcc9")
+	)
+	(wire
+		(pts
+			(xy 38.1 44.45) (xy 36.83 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcba533f-8d70-4047-9602-f3bc563594f5")
+	)
+	(wire
+		(pts
+			(xy 87.63 96.52) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc2e31d-6610-4e91-b295-113412cc5779")
 	)
 	(label "FB1"
-		(at 228.6 39.37 0)
+		(at 128.27 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "25834b21-4648-436e-9185-81accc97af7d")
+		(uuid "232c34c3-b809-4ec3-938c-7071c832efe9")
 	)
 	(label "FB1"
-		(at 189.23 39.37 0)
+		(at 81.28 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c0e38e3d-0279-4772-99e5-14f2a31d2f17")
+		(uuid "e0c4de7e-2f04-4626-b00f-a4ca01647acc")
 	)
 	(hierarchical_label "BATT_SENSE"
 		(shape input)
-		(at 36.83 107.95 180)
+		(at 243.84 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e1de8749-e9bf-4878-be3d-ea8a8cfdf69f")
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 264.16 43.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05d0799b-0bcb-45f4-a1af-d90a37721892")
-		(property "Reference" "D3"
-			(at 267.97 43.4974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 267.97 46.0374 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 264.16 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 264.16 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 264.16 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64d8b25a-fb32-4e3b-a059-c4ba124cd735")
-		)
-		(pin "2"
-			(uuid "e095d2df-83a6-452b-b5b5-07d5e259fc37")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 240.03 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0bb583ae-cab1-45c9-b22f-841efaf2e5dc")
-		(property "Reference" "C7"
-			(at 243.84 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 243.84 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 240.9952 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "92916156-646f-4b04-9a76-2ba3af6e861c")
-		)
-		(pin "1"
-			(uuid "6e043057-68be-4c52-9741-aaa9108c67c7")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "529e6aef-1236-4c52-b4cd-a12af6e6fe29")
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 147.32 33.02 90)
+		(at 181.61 39.37 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3710,9 +3791,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13041627-61b4-49a5-8824-4bf6d2176dc1")
-		(property "Reference" "#PWR08"
-			(at 151.13 33.02 0)
+		(uuid "006d4357-be98-43cd-8496-d5670d8baf7f")
+		(property "Reference" "#PWR07"
+			(at 177.8 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +3804,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 143.51 33.0199 90)
+			(at 185.42 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3734,7 +3815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 33.02 0)
+			(at 181.61 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3745,7 +3826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 33.02 0)
+			(at 181.61 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3756,7 +3837,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 147.32 33.02 0)
+			(at 181.61 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3767,254 +3848,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6967df99-95a1-46e8-ad70-8609bd3244fb")
+			(uuid "2f5a7691-4109-44a2-971f-a0f8e0c69b91")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 218.44 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17656151-40d5-436c-93f0-2b11dd897e6e")
-		(property "Reference" "L1"
-			(at 218.44 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.9uH"
-			(at 218.44 25.4 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder"
-			(at 218.44 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 218.44 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "958432b8-cc40-4968-8d98-cf6a02f2fe95")
-		)
-		(pin "2"
-			(uuid "c5b3d774-779b-4373-a795-4beb3f1f8ed5")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 17.78 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1c167448-73df-4357-b2a4-cdaa35e9808f")
-		(property "Reference" "P1"
-			(at 18.542 39.116 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2S LiPo Connector"
-			(at 20.32 38.862 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 17.78 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 17.78 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "577656a5-d953-4b6f-ad04-0cc945015a1e")
-		)
-		(pin "1"
-			(uuid "94ddcca1-1877-4873-9f29-ba56d4e2f028")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 207.01 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d9481ce-b3cb-40b2-befb-4d64abb1cab8")
-		(property "Reference" "R5"
-			(at 209.55 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2Ohm"
-			(at 209.55 36.8299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 205.232 35.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 207.01 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8ffc902-6564-43b0-8a0d-cc8eab1ee5d0")
-		)
-		(pin "2"
-			(uuid "c121fec1-a98b-4800-8e8e-a2bb0cf5d176")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R5")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4022,7 +3861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 57.15 0)
+		(at 68.58 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4031,9 +3870,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "20870f04-e6d4-4a5d-b02e-32ab693c8657")
-		(property "Reference" "#PWR037"
-			(at 68.58 63.5 0)
+		(uuid "01352c4a-84c9-475b-a326-2f2dfb7360c5")
+		(property "Reference" "#PWR010"
+			(at 68.58 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,7 +3883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 62.23 0)
+			(at 68.58 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4054,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 57.15 0)
+			(at 68.58 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 57.15 0)
+			(at 68.58 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4076,7 +3915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 57.15 0)
+			(at 68.58 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4087,335 +3926,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "01bbaed7-1e9a-4088-8781-846a7e06a156")
+			(uuid "96150186-0bf9-4bb3-a798-4f1f10026209")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 45.72 105.41 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2afceafc-6c8a-4f3e-bc9d-52b2722fac1f")
-		(property "Reference" "C1"
-			(at 48.26 104.1335 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 47.752 106.934 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 45.72 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 45.72 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "815dea8e-b5ed-4278-8f8c-2c2963e98537")
-		)
-		(pin "2"
-			(uuid "f73b917d-f849-448e-ac40-2b73e98b72fe")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 68.58 50.8 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32d75f0e-6a8f-42ff-b4cf-7ad985208554")
-		(property "Reference" "R29"
-			(at 71.12 49.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 71.12 52.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 70.358 50.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 68.58 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ceb134b6-31ee-4bbf-85ce-86ec3b98e58c")
-		)
-		(pin "1"
-			(uuid "6cfe8b1d-47f2-4665-a26b-347e2d5eed29")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 252.73 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32edeac1-c41f-49ff-8951-db4b0edc4682")
-		(property "Reference" "#PWR013"
-			(at 252.73 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bddca34-505d-498a-a218-9205c23fcd6d")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 36.83 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33bd998d-24e2-4410-99c5-50eda3978233")
-		(property "Reference" "R3"
-			(at 154.94 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "180K"
-			(at 154.94 38.0999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 154.178 36.83 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a1d30288-e2b1-4719-bb09-1065bb10db7d")
-		)
-		(pin "1"
-			(uuid "356bd642-b2fd-4d2f-aa9d-590cad0a1f2d")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R3")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4423,7 +3939,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 43.18 41.91 0)
+		(at 71.12 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4432,9 +3948,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37b4d94d-88e2-4fb8-be25-72f2cfe0c70c")
+		(uuid "0530749e-cd6f-4e0e-b8f1-6f79f2e06a36")
 		(property "Reference" "SW1"
-			(at 43.18 33.02 0)
+			(at 71.12 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4444,7 +3960,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 43.18 35.56 0)
+			(at 71.12 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4454,7 +3970,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 43.18 41.91 0)
+			(at 71.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4465,7 +3981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 49.53 0)
+			(at 71.12 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +3992,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 43.18 41.91 0)
+			(at 71.12 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4487,17 +4003,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a24ad13-6cff-4060-8a05-2eaf21260d9f")
+			(uuid "d62dbe78-2a54-4df8-b2f6-2f25bad8effe")
 		)
 		(pin "2"
-			(uuid "d3b6ead8-67ed-4c48-8998-e947a6efefc1")
+			(uuid "84c2be8f-72a8-4101-9b05-4340a7e95055")
 		)
 		(pin "3"
-			(uuid "d4d4b42b-859b-4d73-8a60-89666c92bbb8")
+			(uuid "c496f7fb-5f1f-4dca-8fa3-2a2db76f0a05")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -4505,1060 +4021,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 119.38 39.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4106a871-6320-435b-8144-6bbe3df47e39")
-		(property "Reference" "#PWR07"
-			(at 115.57 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 123.19 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 119.38 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e8e14fdd-30ad-4968-a990-a7e66610519e")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 152.4 46.99 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45ef79da-4f35-470e-98af-6cdf62204ef6")
-		(property "Reference" "R4"
-			(at 154.94 45.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "43K"
-			(at 154.94 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 154.178 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 152.4 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10f659c6-6f8e-48a4-80b3-e8742abb3f3f")
-		)
-		(pin "1"
-			(uuid "3da4fd3d-40de-40c6-8e2f-620e1f061fec")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47c1be5a-1280-49c1-b673-368e83c4ac06")
-		(property "Reference" "C4"
-			(at 121.92 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 121.92 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 119.0752 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "249c8b5d-2f50-4e49-840c-a13392cc813e")
-		)
-		(pin "2"
-			(uuid "1bc60152-4a8e-4bbf-a1ce-2cc32f9693b5")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 53.34 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d897e1-a3c9-4801-a9f9-0287c29e15fa")
-		(property "Reference" "#PWR09"
-			(at 161.29 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 53.3399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a41c320-8747-48d9-a768-29ea7238e1d5")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 86.36 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5358ed53-e628-48e2-bded-1207b12389b7")
-		(property "Reference" "#PWR06"
-			(at 86.36 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7382a7a1-f64f-4d7e-972d-169353038338")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:AP63203WU")
-		(at 176.53 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56b562e8-cb84-4a6a-bf58-571f89d970a9")
-		(property "Reference" "U1"
-			(at 176.53 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63203WU"
-			(at 176.53 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 176.53 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 176.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
-			(at 176.53 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "467fa625-3fef-4355-91ed-7fc7a69639e5")
-		)
-		(pin "3"
-			(uuid "c38b1ecf-8e30-41e1-8663-331752a7e972")
-		)
-		(pin "1"
-			(uuid "659ca458-050a-436f-88f2-cfbacfe0c468")
-		)
-		(pin "4"
-			(uuid "c59cca0b-1f48-4466-8557-4015c850c5c6")
-		)
-		(pin "5"
-			(uuid "68b4caf9-cff7-48e7-a4ea-c55d291161a8")
-		)
-		(pin "2"
-			(uuid "88e1f39d-fdc9-4dba-a1fe-c821e55f35c4")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 35.56 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "57a166a6-c2d6-47fe-bb54-2ec1071ec66e")
-		(property "Reference" "#FLG02"
-			(at 35.56 32.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 29.464 32.258 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 35.56 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26a8a1fb-b308-4073-b773-e41470bcdba2")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 25.4 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58ff8f07-1ba0-4a88-a9b1-7be0e520cfab")
-		(property "Reference" "#PWR02"
-			(at 29.21 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 21.59 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 25.4 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d17e5e2b-4844-4341-b79d-f01420f56b76")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a56dd8a-df95-4355-9256-c7994c51f144")
-		(property "Reference" "R2"
-			(at 45.72 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7K"
-			(at 45.72 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 45.72 98.298 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "271c66bf-68a7-4b52-8068-6a4784d49a8f")
-		)
-		(pin "1"
-			(uuid "ab7abe05-9764-4b61-af9c-615ecf7c6622")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed70503-91cb-4a95-9533-8c1c0e9a4a81")
-		(property "Reference" "#PWR03"
-			(at 45.72 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f11b467-200c-41ae-92aa-fae94e8be7e4")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6494c935-6514-40df-a980-7042cde6b654")
-		(property "Reference" "C3"
-			(at 106.68 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 106.68 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 103.8352 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f5e55c13-da44-4e34-b3eb-6b64d80116c6")
-		)
-		(pin "1"
-			(uuid "78ea9912-aa1a-4a97-808c-8a238fddaa88")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 86.36 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "668ed6bf-917a-4456-bc1e-e840cbd62fcd")
-		(property "Reference" "C2"
-			(at 90.17 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 90.17 46.9899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 87.3252 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36b57885-e18c-4e5f-ba06-6fc78a7133c7")
-		)
-		(pin "2"
-			(uuid "7c65d590-1612-4a5e-824d-356c0d123282")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 191.77 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b953a1d-6428-4a08-94c7-7b1d4e6bee61")
-		(property "Reference" "C5"
-			(at 194.31 31.7562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 194.31 34.2962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 191.77 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 191.77 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b2a8e8b-57d6-4ca2-be35-6332dda607c3")
-		)
-		(pin "2"
-			(uuid "db8108d2-2094-48e7-a811-57803fc865c5")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
-		(at 53.34 50.8 270)
+		(at 99.06 45.72 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5567,9 +4031,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "84fe7692-1bf0-4825-9bf5-846eb8073f3f")
+		(uuid "062238f8-4ee6-4ed1-972c-3442d5afc4e6")
 		(property "Reference" "D1"
-			(at 55.88 49.5299 90)
+			(at 101.6 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5579,8 +4043,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_TVS"
-			(at 55.88 52.0699 90)
+		(property "Value" "SMAJ9.0A"
+			(at 101.6 46.9899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5591,7 +4055,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 53.34 50.8 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5602,7 +4066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 50.8 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5613,7 +4077,7 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
-			(at 53.34 50.8 0)
+			(at 99.06 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,14 +4088,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "243682b0-7e3d-46ff-9d9a-5b568c456b98")
+			(uuid "312d5c8f-c296-407c-bb4f-4588d86bd5f6")
 		)
 		(pin "2"
-			(uuid "50d907a6-c369-462f-a86f-0efc8cbd7eab")
+			(uuid "fb17a82a-ae4d-4796-a32d-7766c6bad25d")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
 					(reference "D1")
 					(unit 1)
 				)
@@ -5639,8 +4103,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 22.86 45.72 0)
+		(lib_id "power:+BATT")
+		(at 49.53 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5649,9 +4113,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "88aee3d4-f4e9-4eba-ac83-2b727b576381")
-		(property "Reference" "#PWR01"
-			(at 22.86 52.07 0)
+		(uuid "08e02853-6dbc-4273-be0e-24ce9900725c")
+		(property "Reference" "#PWR039"
+			(at 49.53 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,8 +4125,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 22.86 50.8 0)
+		(property "Value" "+BATT_IN"
+			(at 49.53 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5672,7 +4136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 45.72 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5683,7 +4147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 45.72 0)
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5693,86 +4157,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51932826-cacd-4820-a85f-ccb05019c2e9")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 55.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9512d4c5-aaef-4aa5-b36b-3b02484087d9")
-		(property "Reference" "#PWR05"
-			(at 39.37 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 44.45 52.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 55.88 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 49.53 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,94 +4169,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6b578f7-4227-45f3-ac62-e8ebb445cacd")
+			(uuid "2a6e9f34-546f-4d98-b17b-b9ad99cc3d17")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 224.79 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c21c5eb-9893-4aaa-904b-8e37e384d479")
-		(property "Reference" "R6"
-			(at 227.33 31.7499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 227.33 34.2899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 223.012 33.02 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 224.79 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "121d10b8-0be6-4dea-8c81-8ecd5c9fa4e0")
-		)
-		(pin "2"
-			(uuid "718603c5-fb71-4c4a-81fe-d8fc186b158e")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R6")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5878,7 +4182,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.01 43.18 0)
+		(at 162.56 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5887,9 +4191,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9ca0bba5-93a3-481a-8e58-ee6e83c615d3")
-		(property "Reference" "C6"
-			(at 210.82 41.9099 0)
+		(uuid "107f8c33-7b23-416e-a6ef-c0286bbc108d")
+		(property "Reference" "C3"
+			(at 166.37 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5899,8 +4203,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
-			(at 210.82 44.4499 0)
+		(property "Value" "22uF"
+			(at 166.37 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5910,8 +4214,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 207.9752 46.99 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 163.5252 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5922,7 +4226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 43.18 0)
+			(at 162.56 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +4237,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 207.01 43.18 0)
+			(at 162.56 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5944,15 +4248,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "a5d3696b-f3cc-4d38-ad5d-1db096900cd4")
+			(uuid "eae7c533-799f-4af5-99cf-f566d10b6012")
 		)
 		(pin "1"
-			(uuid "6e83e84e-0431-4454-b1d4-580f4826869c")
+			(uuid "7518aff8-66ac-48b2-ae15-d516a7455c8a")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C6")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5960,7 +4264,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 240.03 41.91 0)
+		(at 184.15 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5969,9 +4273,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a30ec52a-51dc-47a9-9741-512982e84489")
-		(property "Reference" "#PWR012"
-			(at 240.03 48.26 0)
+		(uuid "18325976-1494-476d-bada-b6b09a6eebd9")
+		(property "Reference" "#PWR014"
+			(at 184.15 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5982,7 +4286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.03 46.99 0)
+			(at 184.15 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,7 +4296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 41.91 0)
+			(at 184.15 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6003,7 +4307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 41.91 0)
+			(at 184.15 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +4318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 41.91 0)
+			(at 184.15 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,20 +4329,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8d9919d-d73a-48cb-ace7-15154bce4591")
+			(uuid "8459923a-2842-4d87-a066-a3bb3eb10304")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR012")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 264.16 34.29 0)
+		(lib_id "Device:C")
+		(at 146.05 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6047,9 +4351,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2a18f84-7f07-4039-9a55-75c614d5e50b")
-		(property "Reference" "R7"
-			(at 266.7 33.0199 0)
+		(uuid "18420876-de46-4d01-888e-99623dd0efc0")
+		(property "Reference" "C7"
+			(at 149.86 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6059,8 +4363,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2K"
-			(at 266.7 35.5599 0)
+		(property "Value" "22uF"
+			(at 149.86 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6070,8 +4374,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 262.382 34.29 90)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 147.0152 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,7 +4386,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 34.29 0)
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,8 +4396,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 264.16 34.29 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,23 +4408,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "51e9beeb-6672-4f01-8eb1-a0159e0795f9")
+			(uuid "7b1db45b-55f9-48e9-9b18-4a9ab4c3459d")
 		)
 		(pin "1"
-			(uuid "c5d9dfda-e39f-4160-9bef-9a8939919a88")
+			(uuid "a7d28359-1d45-4326-a0a0-2b02ef349457")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R7")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 68.58 41.91 90)
+		(lib_id "power:GND")
+		(at 99.06 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6129,9 +4433,1374 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd0caa42-7d80-4fc4-b55e-75a849ef2d3d")
+		(uuid "22f168e1-3ab5-4829-be51-714120457907")
+		(property "Reference" "#PWR05"
+			(at 99.06 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4300c134-7bb0-4db5-ba87-17317b5e90ef")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 184.15 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25307618-1f3c-4a89-b939-c0a22c73acd3")
+		(property "Reference" "R7"
+			(at 186.69 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 186.69 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 182.372 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9c2cac29-7525-48ae-9b0e-b652b73c851a")
+		)
+		(pin "1"
+			(uuid "7982f2a2-6e53-4b27-886f-cf1835b749d9")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29c104c6-c446-4f68-86c7-64619f19da3b")
+		(property "Reference" "#PWR01"
+			(at 38.1 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b942d6c-26ba-432e-8e88-229e873e67b6")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e0a5348-b42b-453d-a9a2-872ea2b05e6d")
+		(property "Reference" "#PWR037"
+			(at 124.46 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c1e663-0110-410d-9931-f8d1d553a565")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30365d21-022b-4b19-9418-722b8cb669a3")
+		(property "Reference" "#PWR09"
+			(at 40.64 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51db3754-1701-4764-8363-3ea97309f127")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 48.26 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "355bd9d2-e37c-44a9-be22-6593581841c0")
+		(property "Reference" "#PWR02"
+			(at 48.26 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 48.133 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 48.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d21e35f-7e74-4672-bef5-0b89a89b6fcc")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3742196d-9337-4609-bfb1-48d4f8043b8c")
+		(property "Reference" "D3"
+			(at 187.96 112.0774 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.96 114.6174 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 184.15 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5f2d819-4fd4-4112-80f8-1844c256e6a5")
+		)
+		(pin "2"
+			(uuid "bf2a4f02-e91c-4fdc-9f90-73cafb97b958")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 31.75 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "449862ff-ab54-4b2a-8c10-267fbc36d4ef")
+		(property "Reference" "P1"
+			(at 32.512 39.116 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2S LiPo Connector"
+			(at 34.29 38.862 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 31.75 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 31.75 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6cc219a6-546d-4957-9183-669b7e1da222")
+		)
+		(pin "1"
+			(uuid "6b7cf9ef-cbc1-47e1-a49a-c8b20e4b00ce")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ce076f-65a3-4dfb-bccf-f5d0f7b7b0c7")
+		(property "Reference" "#PWR018"
+			(at 266.7 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c420b9d-7ad4-4a89-a465-bdaf9664485f")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e90a7f-d120-464f-804a-63b46d71a7c5")
+		(property "Reference" "R5"
+			(at 110.49 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2Ohm"
+			(at 110.49 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 106.172 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b7089ee-45e0-4536-bd1e-67bd617eb0c1")
+		)
+		(pin "2"
+			(uuid "4ab7034c-1d2c-40d6-949f-f0fa817b0916")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 87.63 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea98091-27e8-4162-bf68-38d827bbde30")
+		(property "Reference" "F1"
+			(at 87.63 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1812L260/16"
+			(at 87.63 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 92.71 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 87.63 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c482909d-88f8-48fd-9600-18d399291567")
+		)
+		(pin "1"
+			(uuid "e977d0b5-07ef-4440-af8f-fe354400fa87")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 252.73 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5514bd2f-db32-4ff6-ad40-66e2befff7f5")
+		(property "Reference" "C9"
+			(at 255.27 46.9835 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 254.762 49.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 252.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 252.73 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd5b1f5e-78cf-411e-9f59-db9e08985b37")
+		)
+		(pin "2"
+			(uuid "34eb3aa6-e756-4a80-bf14-23aef1afa51e")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 107.95 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "664bfa5e-0841-4e33-b7ea-4a400a1fcac8")
+		(property "Reference" "C6"
+			(at 111.76 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1nF"
+			(at 111.76 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 108.9152 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4d3312a5-3f3f-43c2-84a9-80c4263ffc50")
+		)
+		(pin "1"
+			(uuid "be6ba3d8-f66a-45d8-8756-2bdf0fb76b77")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec664d3-1d6e-4a99-b287-dad66c6ac388")
+		(property "Reference" "#PWR017"
+			(at 252.73 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 252.73 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9104a613-f1a7-4f67-b413-5162c709c1c7")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 38.1 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ed1a600-b148-444b-a543-b6a8f91170aa")
+		(property "Reference" "#FLG02"
+			(at 38.1 34.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 38.1 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 38.1 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8bbb76ef-9dc6-406f-9196-046be45aec30")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 115.57 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "789eeda0-0c69-4718-a538-fb91238e0e79")
+		(property "Reference" "L1"
+			(at 115.57 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.9uH"
+			(at 115.57 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA4030S"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 115.57 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13ac1e39-3a54-4549-a059-6c6d8c0d3cff")
+		)
+		(pin "2"
+			(uuid "2058f45f-7d9e-439f-b54c-b5429a24cf27")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 36.83 101.6 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ccf1ff1-7684-4db5-8131-e0f440cfa25e")
+		(property "Reference" "#PWR08"
+			(at 40.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 33.02 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 36.83 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5eb8e18-ae87-459e-8d7e-6fa5bf16388b")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 124.46 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84903946-77e1-41ef-9fc5-5c4869df3b61")
 		(property "Reference" "Q3"
-			(at 68.58 33.02 90)
+			(at 124.46 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6141,7 +5810,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 68.58 35.56 90)
+			(at 124.46 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6151,7 +5820,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 70.485 36.83 0)
+			(at 126.365 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6164,7 +5833,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 72.39 36.83 0)
+			(at 128.27 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +5845,7 @@
 			)
 		)
 		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 68.58 41.91 0)
+			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6187,17 +5856,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "ad00dbad-7a2b-4dde-9f81-abd1c81bf387")
+			(uuid "91ffe72c-d32b-4eab-9770-bced4631d780")
 		)
 		(pin "1"
-			(uuid "4d459b3f-203e-4ed3-9f44-8ff695462064")
+			(uuid "efce063b-f514-4c97-839b-10fe2005e030")
 		)
 		(pin "2"
-			(uuid "642c1fef-3930-4da6-a835-578da8e3ea47")
+			(uuid "1c688627-7bab-4a16-9141-90aaa5ada6bb")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -6205,8 +5874,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 53.34 96.52 90)
+		(lib_id "Device:R")
+		(at 124.46 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6215,20 +5884,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bddce22b-c11d-4c07-b352-57611f013e06")
-		(property "Reference" "#PWR04"
-			(at 59.69 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 96.5199 90)
+		(uuid "92e3a812-31d6-47eb-a01a-c3458afd0fc8")
+		(property "Reference" "R29"
+			(at 127 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6238,85 +5896,19 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d3e51bb0-e718-454d-aea1-adfd9ac10fde")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfa2cec6-95c7-42ea-a71a-44ca084fe4a5")
-		(property "Reference" "R1"
-			(at 33.02 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Value" "10K"
-			(at 33.02 92.71 90)
+			(at 127 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 33.02 98.298 90)
+			(at 126.238 50.8 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +5919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 96.52 0)
+			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +5930,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 96.52 0)
+			(at 124.46 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,101 +5941,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "cddbe3ae-4dd0-454a-9868-0b9536a08d15")
+			(uuid "2fe4b29a-c1ca-4ff3-b98c-d9468bf3ce84")
 		)
 		(pin "1"
-			(uuid "75935497-ac5c-4904-ac08-81b9d58580e9")
+			(uuid "d688536b-5c09-47f6-a055-7e0198b80705")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "R1")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R29")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 269.24 27.94 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cea780d9-b5ac-424f-b940-4f0c31070412")
-		(property "Reference" "#PWR015"
-			(at 265.43 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 273.304 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 269.24 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21498056-21d3-497d-862c-209025766394")
-		)
-		(instances
-			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 53.34 39.37 90)
+		(lib_id "power:GND")
+		(at 162.56 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6452,29 +5966,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db1680c2-3a0c-4672-b2fe-5e984e9f94b0")
-		(property "Reference" "F1"
-			(at 53.34 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 53.34 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 58.42 38.1 0)
+		(uuid "9d4a9576-72ec-48b4-b758-d7e98f959ed3")
+		(property "Reference" "#PWR013"
+			(at 162.56 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,11 +5976,31 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 39.37 0)
+			(at 162.56 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6496,8 +6010,87 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 53.34 39.37 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8068fa7-f6b1-4eda-ba8a-80a41c96ad4a")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 107.95 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0352498-97ef-4bb6-a631-d2579eedac09")
+		(property "Reference" "R3"
+			(at 43.18 106.6799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "39K"
+			(at 43.18 109.2199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 42.418 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6508,23 +6101,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "bd760e6c-c51e-4f75-84c7-d9b16c9b4fa6")
+			(uuid "c1c1ed42-8091-435e-9b52-2df8c3f92c98")
 		)
 		(pin "1"
-			(uuid "2ee6b44d-d2b2-4fcd-9fcd-9585ade59ede")
+			(uuid "23cd4a70-52f2-448e-85b6-1c6f6e1aeaac")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "F1")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 45.72 0)
+		(lib_id "Device:C_Small")
+		(at 87.63 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6533,30 +6126,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df758627-dfa1-4d08-8792-7d58052abe77")
-		(property "Reference" "#PWR010"
-			(at 176.53 52.07 0)
-			(hide yes)
+		(uuid "ada31214-ce11-4862-9f0c-7858b3a8354f")
+		(property "Reference" "C5"
+			(at 90.17 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 50.8 0)
+		(property "Value" "100nF"
+			(at 90.17 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 45.72 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 87.63 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6567,7 +6161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 45.72 0)
+			(at 87.63 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6577,8 +6171,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 45.72 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 87.63 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6589,20 +6183,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "19d43844-8001-488c-b5b1-1be2296e4acb")
+			(uuid "505b7bdb-8b39-4e11-99f3-0b3282cd62db")
+		)
+		(pin "2"
+			(uuid "5e015769-6d21-4375-8fa3-703c999abbac")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR010")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 264.16 48.26 0)
+		(lib_id "Device:R")
+		(at 40.64 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6611,30 +6208,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e7a90bf0-61f7-4ed7-afbb-e69157273b05")
-		(property "Reference" "#PWR014"
-			(at 264.16 54.61 0)
-			(hide yes)
+		(uuid "c23ec6fb-7d62-4a02-9d68-263b4796991e")
+		(property "Reference" "R4"
+			(at 43.18 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 264.16 53.34 0)
+		(property "Value" "8.2K"
+			(at 43.18 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 42.418 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +6243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 48.26 0)
+			(at 40.64 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6655,8 +6253,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 48.26 0)
+		(property "Description" "Resistor"
+			(at 40.64 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6665,22 +6263,25 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "97db2105-1f6d-4c48-b91a-94cd145ec833")
 		)
 		(pin "1"
-			(uuid "9ed42f2e-9f32-49f7-a353-c357ca8983f1")
+			(uuid "5e1b5741-3a5c-482b-8eff-5e89b1decdd0")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#PWR014")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 26.67 44.45 270)
+		(lib_id "power:+BATT")
+		(at 232.41 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6688,9 +6289,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ec14156d-33de-4813-832c-dde42dc7cc0f")
-		(property "Reference" "#FLG01"
-			(at 28.575 44.45 0)
+		(fields_autoplaced yes)
+		(uuid "cbc0a06e-1e93-48f0-818e-98d445be850a")
+		(property "Reference" "#PWR016"
+			(at 236.22 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,8 +6302,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 26.67 47.498 90)
+		(property "Value" "+BATT"
+			(at 228.6 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +6314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 44.45 0)
+			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +6325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 44.45 0)
+			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6733,8 +6335,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 26.67 44.45 0)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6745,12 +6347,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e935b6a-bb98-436c-a86d-dfab8ca2436b")
+			(uuid "91bb6d5e-e6a9-44b1-80c2-91030e3908ca")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "#FLG01")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6360,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 34.29 0)
+		(at 177.8 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6767,9 +6369,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1595e98-61f7-4c10-97d4-91ff10e62c16")
-		(property "Reference" "C8"
-			(at 256.54 33.0199 0)
+		(uuid "d06e4e8b-c340-48de-9ed5-9f11c819d10a")
+		(property "Reference" "C4"
+			(at 181.61 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6779,8 +6381,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
-			(at 256.54 35.5599 0)
+		(property "Value" "100uF"
+			(at 181.61 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6790,8 +6392,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 253.6952 38.1 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 178.7652 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6802,7 +6404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 34.29 0)
+			(at 177.8 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6813,7 +6415,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 34.29 0)
+			(at 177.8 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,24 +6425,24 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "fb55638d-362f-48ce-aa1e-9337a2db9d10")
-		)
 		(pin "1"
-			(uuid "81d42cf1-af77-4a37-a327-44966b9dd484")
+			(uuid "aded3ac3-097e-4be4-8952-f97952da1a47")
+		)
+		(pin "2"
+			(uuid "bf5c268c-5805-4485-b731-9911de391051")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
-					(reference "C8")
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 46.99 0)
+		(lib_id "Device:R")
+		(at 240.03 39.37 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6849,10 +6451,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc3ae17d-a812-4038-a0c2-b27ee18de228")
-		(property "Reference" "#PWR011"
-			(at 207.01 53.34 0)
-			(hide yes)
+		(uuid "d4479acb-6815-4a10-a5db-21a6995e4d90")
+		(property "Reference" "R8"
+			(at 240.03 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6861,8 +6462,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 207.01 52.07 0)
+		(property "Value" "10K"
+			(at 240.03 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6871,8 +6472,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 46.99 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 240.03 41.148 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6883,7 +6484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 46.99 0)
+			(at 240.03 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6893,8 +6494,182 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 46.99 0)
+		(property "Description" "Resistor"
+			(at 240.03 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7193e744-dab1-4cad-9c85-0e34243e9954")
+		)
+		(pin "1"
+			(uuid "26f1798a-f5f1-47c0-9232-62a95df46cbb")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63203WU")
+		(at 68.58 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba7e0f4-9bbe-4dcc-9ca8-269f9a48e882")
+		(property "Reference" "U1"
+			(at 68.58 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU"
+			(at 68.58 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 68.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 68.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 68.58 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "861f02fe-bc02-417d-adff-582f8b81cae2")
+		)
+		(pin "3"
+			(uuid "72dd17d6-9f1b-40c7-9257-6798b6ea220b")
+		)
+		(pin "1"
+			(uuid "522298d7-219c-4cac-abe9-4fd2bfdc6e6c")
+		)
+		(pin "4"
+			(uuid "911db0ed-fcdb-4b07-a442-ec27c56798cc")
+		)
+		(pin "5"
+			(uuid "c198b44d-9b59-4b50-ad80-e76a6bfdbd3b")
+		)
+		(pin "2"
+			(uuid "07652d1c-928f-49ab-a752-d2e6f5b7aa4d")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df43fa5a-77e5-4494-92b5-5393bfab3a74")
+		(property "Reference" "R6"
+			(at 127 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0Ohm"
+			(at 127 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 122.682 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6905,12 +6680,649 @@
 			)
 		)
 		(pin "1"
-			(uuid "1358d6e7-6429-474b-ac91-235596fca519")
+			(uuid "a0f40041-a87f-4b4d-8f59-27c36991a586")
+		)
+		(pin "2"
+			(uuid "8acc9448-eb65-4630-b20f-0eaaffb87a1a")
 		)
 		(instances
 			(project "AratMicro"
-				(path "/84347b6a-3c52-499b-880c-9fa3c1707a82/ef221098-9731-443b-b8f9-1983d669fab7"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 180.34 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df68b823-5646-47ae-9e2a-e40a9e7bdd00")
+		(property "Reference" "#FLG03"
+			(at 180.34 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 180.34 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bfe24d3-1468-4490-ad24-5ad3924c2f45")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e37b9d4f-ed02-4022-9f24-be315b9f892d")
+		(property "Reference" "#PWR06"
+			(at 146.05 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12041df4-a22f-4de6-a78a-81d58b335060")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.95 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb655759-4dfa-422c-af45-b97c7b3c3f2e")
+		(property "Reference" "#PWR011"
+			(at 107.95 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13fb9539-c1ba-40a2-8185-103f44701785")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed8806a0-d79d-4aa7-9158-a38c84bb3a7b")
+		(property "Reference" "C8"
+			(at 166.37 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 166.37 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 163.5252 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e07c05f-de34-4c3d-b147-0c5ba7108c69")
+		)
+		(pin "1"
+			(uuid "ea5f44e1-fb49-4e29-b52c-bce9e973c114")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede7691e-1d15-40a8-958d-3c966c5f0459")
+		(property "Reference" "R9"
+			(at 252.73 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 252.73 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 252.73 41.148 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "27fc872b-d168-4feb-9832-e65f267ff4fc")
+		)
+		(pin "1"
+			(uuid "3acc1e25-8f3b-42b7-a1b2-42d80f656938")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edeb7981-962c-4da9-b5c2-64ca3f96d959")
+		(property "Reference" "C2"
+			(at 149.86 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 149.86 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 147.0152 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fafd3e6c-243f-438e-907e-3d4f6e9a0b7d")
+		)
+		(pin "2"
+			(uuid "6cc0c3f4-5b60-4464-88da-24ee73510d20")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 189.23 96.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6eadb9c-12c8-4935-a618-c8adcd462ce8")
+		(property "Reference" "#PWR015"
+			(at 185.42 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 193.294 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 189.23 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c054de88-c4c0-4a76-81ab-303bc8f30ff5")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb7c8cf-ece0-4ddf-9c3b-787fc03d0633")
+		(property "Reference" "#PWR012"
+			(at 146.05 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb5cef1-7890-4df0-80ed-edd32c523500")
+		)
+		(instances
+			(project "AratMicro"
+				(path "/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

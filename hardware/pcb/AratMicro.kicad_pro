@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -209,12 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.3,
-        0.8,
-        1.0
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -241,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -258,13 +242,7 @@
       "mpn": "",
       "sch_revision": ""
     },
-    "layer_pairs": [
-      {
-        "bottomLayer": 2,
-        "enabled": true,
-        "topLayer": 0
-      }
-    ],
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -284,7 +262,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "unannotated|1663700|774700|c8fe370e-d142-4194-bd47-77e14edaa014|00000000-0000-0000-0000-000000000000|||",
+        "power_pin_not_driven|1892300|965200|c054de88-c4c0-4a76-81ab-303bc8f30ff5|00000000-0000-0000-0000-000000000000|/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c|/34286063-a8be-460a-95fb-941f00f99a59/80199ec8-c390-4d9b-b63a-a056d7ea0b5c|",
         ""
       ]
     ],
@@ -512,7 +490,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "AratMicro_Sensors"
+    ]
   },
   "meta": {
     "filename": "AratMicro.kicad_pro",
@@ -538,33 +518,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.3,
-        "name": "Motor_OUT",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 0.25,
-        "name": "Power_3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
-        "tuning_profile": ""
-      },
-      {
-        "clearance": 0.3,
-        "name": "Power_LiPo",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -589,7 +542,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 1
+      "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -644,6 +597,18 @@
         },
         {
           "group_by": true,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -653,30 +618,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -726,28 +673,36 @@
       {
         "filename": "AratMicro.kicad_sch",
         "name": "Root",
-        "uuid": "84347b6a-3c52-499b-880c-9fa3c1707a82"
+        "uuid": "34286063-a8be-460a-95fb-941f00f99a59"
       }
     ],
-    "used_designators": "C1-27,#PWR1-51,#PWR54-61,Y1-3,P1,L1,C_BIG1,R1-19,BZ1,#FLG1-3,J1-4,SW1-3,Q1-2,F1,D1-8,U1-3",
+    "used_designators": "SW1-5,R1-44,J1-4,#PWR1-105,Y1-4,PRG_CONN1,Q1-9,F1,BZ1,C1-40,U1-7,D1,D3-17,#FLG1-4,P1,L1,BT_CONN1",
     "variants": []
   },
   "sheets": [
     [
-      "84347b6a-3c52-499b-880c-9fa3c1707a82",
+      "34286063-a8be-460a-95fb-941f00f99a59",
       "Root"
     ],
     [
-      "ef221098-9731-443b-b8f9-1983d669fab7",
+      "80199ec8-c390-4d9b-b63a-a056d7ea0b5c",
       "Power Supply"
     ],
     [
-      "b6d3b1d4-0044-4393-a354-db00afbe12d0",
-      "(hierarchical_label \"MCBIN1\"\n\t(shape input)\n\t(at 41.91 62.23 180)\n\t(effects\n\t\t(font (size 1.27 1.27))\n\t\t(justify right)\n\t)\n\t(uuid \"2ea1dda2-f0c2-490b-a46b-886f6f64de40\")\n)\n(hierarchical_label \"MCIN2\"\n\t(shape input)\n\t(at 41.91 59.69 180)\n\t(effects\n\t\t(font (size 1.27 1.27))\n\t\t(justify right)\n\t)\n\t(uuid \"d6e89daa-d6b8-4776-a5c3-8dc4b8de954e\")\n)\n(hierarchical_label \"MCBIN2\"\n\t(shape input)\n\t(at 41.91 64.77 180)\n\t(effects\n\t\t(font (size 1.27 1.27))\n\t\t(justify right)\n\t)\n\t(uuid \"bfcc591a-b254-474f-865b-cbbbae4cea0b\")\n)\n(hierarchical_label \"MCIN1\"\n\t(shape input)\n\t(at 41.91 57.15 180)\n\t(effects\n\t\t(font (size 1.27 1.27))\n\t\t(justify right)\n\t)\n\t(uuid \"99fb4bee-8416-4003-8a3e-dc75545f3937\")\n)"
+      "a2ad76e3-d82d-44a6-9ba9-b107e0117b78",
+      "Microcontroller Unit"
     ],
     [
-      "0df2eac9-b7ec-401c-a186-849b12550425",
-      "Motor Controller Unit"
+      "5250e83a-2d60-44df-851e-f5a98c6bc740",
+      "Motor Controller"
+    ],
+    [
+      "ac4de790-4e92-43db-a6a0-97d8b071b351",
+      "User Interface"
+    ],
+    [
+      "81c03889-174b-4fc6-a0d7-b820c20c4214",
+      "Sensor Unit"
     ]
   ],
   "text_variables": {},
